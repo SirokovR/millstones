@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  db:
+    image: "postgres"
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: tc
+      POSTGRES_USER: tc
+      POSTGRES_PASSWORD: tc
+    volumes:
+      - /home/laisk/my_postgres1/postgres1-data:/var/lib/postgresql/data
