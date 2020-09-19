@@ -10,4 +10,4 @@ services:
       POSTGRES_USER: tc
       POSTGRES_PASSWORD: tc
     volumes:
-      - /home/laisk/my_postgres1/postgres1-data:/var/lib/postgresql/data
+      - /home/laisk/my_postgres_millstone/postgres1-data:/var/lib/postgresql/data
